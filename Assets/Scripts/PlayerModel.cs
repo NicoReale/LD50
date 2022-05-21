@@ -10,6 +10,8 @@ public class PlayerModel : MonoBehaviour
 
     IResource resource;
     IConsumator consumator;
+
+
     IController playerController;
 
 
@@ -95,7 +97,6 @@ public class PlayerModel : MonoBehaviour
         {
             this.consumator = consumator;
             OnResourceReach = true;
-            Debug.Log(consumator.ID());
         }
 
     }
